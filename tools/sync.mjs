@@ -113,13 +113,6 @@ html = html.replace(
 if (base) {
   html = html.replaceAll('"/assets/', `"${base}/assets/`);
 }
-// 自定义 UI 覆盖层：在打包 CSS/JS 之后加载，用户改 custom/ 即可，不会被同步覆盖。
-if (existsSync(join(siteRoot, "custom", "theme.css"))) {
-  const customTags =
-    `\n    <link rel="stylesheet" href="${base}/custom/theme.css">` +
-    `\n    <script defer src="${base}/custom/theme.js"></script>`;
-  html = html.replace("</head>", customTags + "\n  </head>");
-}
 if (injectedBlocks) {
   html = html.replace("</body>", injectedBlocks + "\n  </body>");
 }

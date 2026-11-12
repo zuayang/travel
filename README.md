@@ -27,33 +27,19 @@ github-pages/
 ├── 404.html                index.html 的副本，承接 SPA 深链接
 ├── .nojekyll               跳过 Jekyll 处理
 ├── push-to-github.bat      ★ 双击一键推送
-├── preview.bat             ★ 双击本地预览（改 UI 时实时看效果）
 ├── push.config.json        本机配置（首次运行自动生成，已被 .gitignore 忽略）
-├── custom/                 ★ 自定义 UI：theme.css / theme.js / README.md
 ├── assets/                 前端 JS / CSS + static-shim.js
 ├── content/weeks.json      文字、章节、照片索引
-├── uploads/                照片（original / large / thumb）
+├── uploads/                73 MB 照片（original / large / thumb）
 ├── .gitignore
 └── tools/
     ├── push.mjs            一键推送逻辑
-    ├── preview.mjs         支持子路径与 SPA 的本地预览服务器
     ├── sync.mjs            从便携版重新同步内容与最新前端
     ├── static-shim.js      只读展示版补丁源码
     └── sync-content.bat    Windows 一键同步
 ```
 
-`tools/` 只是维护工具，推到仓库不影响站点，介意的话可以删掉（但删了就不能一键推送/预览了）。
-
-## 修改主界面 UI
-
-这个包**没有前端源码**，只有压缩后的 JS/CSS，所以直接改 `assets/` 里的文件每次同步都会被覆盖。已内置一套覆盖层：
-
-- 改**样式**（配色、字体、字号、间距、圆角、背景、显隐）→ 编辑 `custom/theme.css`，里面有 8 组即贴即用的配方。
-- 改**文案 / 加元素**（汉化英文标签、加徽标角标、改浏览器标题）→ 编辑 `custom/theme.js`，自带 React 重渲染适配。
-- 改**数据文字**（旅行名、章节名、日期、日记、章节强调色）→ 用本机管理页 `/admin` 或改源 `public/content/weeks.json`，别直接改本目录的 JSON。
-- 改**组件结构**（增删模块、改交互）→ 需要重建前端源码，压缩产物上改不可持续。
-
-流程：编辑 `custom/` → 双击 `preview.bat` 刷新看效果 → 双击 `push-to-github.bat` 发布。完整选择器速查、配方和注意事项见 **[custom/README.md](custom/README.md)**。
+`tools/` 只是维护工具，推到仓库不影响站点，介意的话可以删掉（但删了就不能一键推送了）。
 
 ## 一键推送（推荐）
 
