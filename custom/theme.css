@@ -1,0 +1,119 @@
+/* ============================================================
+   旅行照片记录本 · 自定义样式（主界面 UI 改这里）
+   ------------------------------------------------------------
+   这个文件在打包 CSS 之后加载，所以同名规则会覆盖原版；
+   遇到优先级不够时，在声明后加 !important。
+
+   改完：双击根目录 preview.bat 立刻看效果；
+        双击 push-to-github.bat 发布到线上。
+
+   不要直接改 assets/index-*.css —— 每次同步都会被覆盖。
+   ============================================================ */
+
+/* ---------- 可复用的主题变量（改这里，再启用下方配方） ---------- */
+:root {
+  --ui-accent: #cf4938;      /* 主强调色：原版胶片红 */
+  --ui-ink: #f4ecd8;         /* 正文米白 */
+  --ui-title: #f5eed8;       /* 大标题色 */
+  --ui-bg-deep: #060706;     /* 背景最深 */
+  --ui-bg-mid: #0d0f0c;      /* 背景中间 */
+  --ui-bg-teal: #12302b;     /* 背景墨绿 */
+  --ui-radius: 0px;          /* 卡片圆角，原版是直角 */
+  --ui-font: Inter, "SF Pro Display", "Microsoft YaHei", sans-serif;
+}
+
+/* ============================================================
+   配方 1 · 换主色调
+   例如改成克莱因蓝：把上面 --ui-accent 改成 #2f6bff，
+   然后取消下面这段的注释。
+   注意：每个章节还有自己的强调色（存在 weeks.json 的 accent 字段，
+   以行内样式写入），要统一请在管理页里逐章改，或改数据源。
+   ============================================================ */
+/*
+.home-layout        { --home-accent: var(--ui-accent); --home-tone: var(--ui-accent); }
+.chapter-panel      { --accent: var(--ui-accent); }
+.film-strip         { --accent: var(--ui-accent); --tone: var(--ui-accent); }
+.roll-row           { --row-tone: var(--ui-accent); }
+.travel-index-panel { --panel-tone: var(--ui-accent); }
+*/
+
+/* ============================================================
+   配方 2 · 换字体
+   把正文换成中文友好字体，等宽标签换成另一套。
+   ============================================================ */
+/*
+:root { font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif; }
+.microline, .journal-line, .film-preview-header, .frame-meta,
+.chapter-kicker, .tiny-status, .top-rail, .route-spine {
+  font-family: "SF Mono", Consolas, "Courier New", monospace;
+}
+*/
+
+/* ============================================================
+   配方 3 · 换背景 / 去掉胶片扫描线
+   body::before 就是那层横向细纹；body 本身是径向+线性双层渐变。
+   ============================================================ */
+/*
+body {
+  background:
+    radial-gradient(circle at 72% 12%, color-mix(in srgb, var(--ui-accent) 14%, transparent), transparent 30%),
+    linear-gradient(140deg, var(--ui-bg-deep), var(--ui-bg-mid) 54%, var(--ui-bg-teal)) !important;
+}
+body::before { display: none; }
+*/
+
+/* ============================================================
+   配方 4 · 大标题尺寸与颜色
+   原版：clamp(104px, 26cqw, 210px)，非常巨大。
+   ============================================================ */
+/*
+.home-title {
+  font-size: clamp(64px, 14cqw, 140px) !important;
+  color: var(--ui-title) !important;
+  letter-spacing: -2px;
+}
+*/
+
+/* ============================================================
+   配方 5 · 左右分栏比例
+   原版：左 0.68fr / 右 1.32fr，且左侧最小 500px。
+   窄屏想让左侧更宽，或改成上下堆叠。
+   ============================================================ */
+/*
+.home-layout {
+  grid-template-columns: minmax(420px, .9fr) minmax(560px, 1.1fr) !important;
+}
+@media (max-width: 1100px) {
+  .home-layout { display: block !important; }
+  .home-copy   { border-right: 0 !important; }
+}
+*/
+
+/* ============================================================
+   配方 6 · 章节卡片圆角 / 间距 / 标题位置
+   ============================================================ */
+/*
+.film-strip { border-radius: var(--ui-radius); }
+.strip-copy { right: 24px !important; text-align: left !important; justify-items: start !important; }
+.strip-index { font-size: 13px !important; }
+*/
+
+/* ============================================================
+   配方 7 · 顶栏与侧边刻度
+   ============================================================ */
+/*
+.top-rail    { height: 56px !important; font-size: 10px !important; letter-spacing: 1px !important; }
+.route-spine { display: none !important; }
+*/
+
+/* ============================================================
+   配方 8 · 隐藏入场动画（截图/录屏时有用）
+   ============================================================ */
+/*
+*, *::before, *::after {
+  animation-duration: 0s !important;
+  animation-delay: 0s !important;
+  transition-duration: 0s !important;
+  transition-delay: 0s !important;
+}
+*/
