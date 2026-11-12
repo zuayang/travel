@@ -1,8 +1,0 @@
-.DS_Store
-Thumbs.db
-desktop.ini
-node_modules/
-*.log
-
-# 本机推送配置（含 GitHub 用户名，别提交）
-push.config.json
