@@ -3,187 +3,1912 @@
     {
       "id": "xixing-2025",
       "title": "人生",
-      "range": "",
+      "range": "2025.12-2026.10",
       "summary": "永远相信美好的事物即将发生！",
       "createdAt": "2026-05-24T12:00:00.000Z",
       "days": [
         {
-          "id": "dunhuang",
+          "id": "chapter-mwddjge2",
           "index": "01",
-          "weekday": "敦煌",
-          "title": "敦煌",
-          "date": "08.18",
-          "diary": "什么是假，什么是真。我不点灯，仍能见你，眼中泪痕，手里余温。",
-          "tags": [
-            "莫高窟",
-            "鸣沙山",
-            "月牙泉"
-          ],
-          "accent": "#cf4938",
-          "location": "甘肃 · 敦煌",
-          "coverPhotoId": "1779604634189-0-img-20250818-134658",
+          "weekday": "天津",
+          "title": "天津",
+          "date": "2025.12.13",
+          "location": "一座兼具烟火气与异域风情的城市",
+          "diary": "天子渡口，六百年城",
+          "tags": [],
+          "accent": "#3a3fcf",
           "photos": [
             {
-              "id": "1779604634189-0-img-20250818-134658",
-              "originalSrc": "/uploads/weeks/2026-w21/monday/original/1779604634189-0-img-20250818-134658.jpg",
-              "largeSrc": "/uploads/weeks/2026-w21/monday/large/1779604634189-0-img-20250818-134658.webp",
-              "thumbSrc": "/uploads/weeks/2026-w21/monday/thumb/1779604634189-0-img-20250818-134658.webp",
-              "alt": "敦煌 · 第 1 帧",
-              "createdAt": "2026-05-24T06:37:14.850Z",
-              "dominantColor": "#545251",
-              "stripCropX": 0,
-              "stripCropY": 44,
-              "crops": {
-                "chapterStrip": {
-                  "x": 0,
-                  "y": 37.75,
-                  "width": 100,
-                  "height": 12.5
-                },
-                "detailMain": {
-                  "x": 0,
-                  "y": 18.308,
-                  "width": 100,
-                  "height": 56.25
-                },
-                "thumbnail": {
-                  "x": 0,
-                  "y": 14.634,
-                  "width": 100,
-                  "height": 70.732
-                }
-              }
-            },
-            {
-              "id": "1779645291111-0-img-20250818-133744",
-              "originalSrc": "/uploads/weeks/bali-2026/bromo/original/1779645291111-0-img-20250818-133744.jpg",
-              "largeSrc": "/uploads/weeks/bali-2026/bromo/large/1779645291111-0-img-20250818-133744.webp",
-              "thumbSrc": "/uploads/weeks/bali-2026/bromo/thumb/1779645291111-0-img-20250818-133744.webp",
-              "dominantColor": "#6c5646",
-              "alt": "敦煌 · 第 2 帧",
-              "createdAt": "2026-05-24T17:54:51.727Z",
+              "id": "1794485146526-5130-IMG20251213110718",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/original/1794485146526-5130-IMG20251213110718.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/large/1794485146526-5130-IMG20251213110718.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/thumb/1794485146526-5130-IMG20251213110718.webp",
+              "dominantColor": "#25292c",
               "stripCropX": 50,
-              "stripCropY": 50,
+              "stripCropY": 48,
               "crops": {
                 "chapterStrip": {
                   "x": 0,
-                  "y": 43.75,
+                  "y": 41.75,
                   "width": 100,
                   "height": 12.5
                 },
                 "detailMain": {
                   "x": 0,
-                  "y": 5.354,
+                  "y": 0,
                   "width": 100,
-                  "height": 56.25
+                  "height": 100
                 },
                 "thumbnail": {
                   "x": 0,
-                  "y": 14.634,
+                  "y": 0,
                   "width": 100,
-                  "height": 70.732
+                  "height": 100
                 }
-              }
+              },
+              "alt": "天津 · 第 1 帧",
+              "createdAt": "2026-11-12T12:05:46.558Z"
             },
             {
-              "id": "1779645291727-1-img-20250818-133601",
-              "originalSrc": "/uploads/weeks/bali-2026/bromo/original/1779645291727-1-img-20250818-133601.jpg",
-              "largeSrc": "/uploads/weeks/bali-2026/bromo/large/1779645291727-1-img-20250818-133601.webp",
-              "thumbSrc": "/uploads/weeks/bali-2026/bromo/thumb/1779645291727-1-img-20250818-133601.webp",
-              "dominantColor": "#554940",
-              "alt": "敦煌 · 第 3 帧",
-              "createdAt": "2026-05-24T17:54:52.338Z",
+              "id": "1794485186203-9705-IMG20251213112004",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/original/1794485186203-9705-IMG20251213112004.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/large/1794485186203-9705-IMG20251213112004.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/thumb/1794485186203-9705-IMG20251213112004.webp",
+              "dominantColor": "#a2012b",
               "stripCropX": 50,
-              "stripCropY": 50,
+              "stripCropY": 48,
               "crops": {
                 "chapterStrip": {
                   "x": 0,
-                  "y": 43.75,
+                  "y": 41.75,
                   "width": 100,
                   "height": 12.5
                 },
                 "detailMain": {
                   "x": 0,
-                  "y": 16.968,
+                  "y": 0,
                   "width": 100,
-                  "height": 56.25
+                  "height": 100
                 },
                 "thumbnail": {
                   "x": 0,
-                  "y": 14.634,
+                  "y": 0,
                   "width": 100,
-                  "height": 70.732
+                  "height": 100
                 }
-              }
+              },
+              "alt": "天津 · 第 2 帧",
+              "createdAt": "2026-11-12T12:06:26.253Z"
             },
             {
-              "id": "1779645461024-0-img-20250819-171043",
-              "originalSrc": "/uploads/weeks/bali-2026/bromo/original/1779645461024-0-img-20250819-171043.jpg",
-              "largeSrc": "/uploads/weeks/bali-2026/bromo/large/1779645461024-0-img-20250819-171043.webp",
-              "thumbSrc": "/uploads/weeks/bali-2026/bromo/thumb/1779645461024-0-img-20250819-171043.webp",
-              "dominantColor": "#b5b0aa",
-              "alt": "敦煌 · 第 4 帧",
-              "createdAt": "2026-05-24T17:57:41.588Z",
+              "id": "1794485192589-6784-IMG20251213120649",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/original/1794485192589-6784-IMG20251213120649.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/large/1794485192589-6784-IMG20251213120649.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/thumb/1794485192589-6784-IMG20251213120649.webp",
+              "dominantColor": "#dad4be",
               "stripCropX": 50,
-              "stripCropY": 50,
+              "stripCropY": 66,
               "crops": {
                 "chapterStrip": {
                   "x": 0,
-                  "y": 43.75,
+                  "y": 59.75,
                   "width": 100,
                   "height": 12.5
                 },
                 "detailMain": {
                   "x": 0,
-                  "y": 24.001,
+                  "y": 0,
                   "width": 100,
-                  "height": 56.25
+                  "height": 100
                 },
                 "thumbnail": {
                   "x": 0,
-                  "y": 14.634,
+                  "y": 0,
                   "width": 100,
-                  "height": 70.732
+                  "height": 100
                 }
-              }
+              },
+              "alt": "天津 · 第 3 帧",
+              "createdAt": "2026-11-12T12:06:32.607Z"
             },
             {
-              "id": "1779645461588-1-img-20250819-164947",
-              "originalSrc": "/uploads/weeks/bali-2026/bromo/original/1779645461588-1-img-20250819-164947.jpg",
-              "largeSrc": "/uploads/weeks/bali-2026/bromo/large/1779645461588-1-img-20250819-164947.webp",
-              "thumbSrc": "/uploads/weeks/bali-2026/bromo/thumb/1779645461588-1-img-20250819-164947.webp",
-              "dominantColor": "#8b7c6b",
-              "alt": "敦煌 · 第 5 帧",
-              "createdAt": "2026-05-24T17:57:42.129Z",
+              "id": "1794485198574-8389-IMG20251213144148",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/original/1794485198574-8389-IMG20251213144148.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/large/1794485198574-8389-IMG20251213144148.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/thumb/1794485198574-8389-IMG20251213144148.webp",
+              "dominantColor": "#7ebae6",
               "stripCropX": 50,
-              "stripCropY": 50,
+              "stripCropY": 48,
               "crops": {
                 "chapterStrip": {
                   "x": 0,
-                  "y": 43.75,
+                  "y": 41.75,
                   "width": 100,
                   "height": 12.5
                 },
                 "detailMain": {
                   "x": 0,
-                  "y": 23.674,
+                  "y": 0,
                   "width": 100,
-                  "height": 56.25
+                  "height": 100
                 },
                 "thumbnail": {
                   "x": 0,
-                  "y": 14.634,
+                  "y": 0,
                   "width": 100,
-                  "height": 70.732
+                  "height": 100
                 }
-              }
+              },
+              "alt": "天津 · 第 4 帧",
+              "createdAt": "2026-11-12T12:06:38.590Z"
             },
             {
-              "id": "1794471134287-2664-88F9DFE48154C91E808E518A6CD93CF7",
-              "originalSrc": "/uploads/weeks/xixing-2025/dunhuang/original/1794471134287-2664-88F9DFE48154C91E808E518A6CD93CF7.jpg",
-              "largeSrc": "/uploads/weeks/xixing-2025/dunhuang/large/1794471134287-2664-88F9DFE48154C91E808E518A6CD93CF7.webp",
-              "thumbSrc": "/uploads/weeks/xixing-2025/dunhuang/thumb/1794471134287-2664-88F9DFE48154C91E808E518A6CD93CF7.webp",
-              "dominantColor": "#a46b43",
+              "id": "1794485201806-7305-IMG20251213145940",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/original/1794485201806-7305-IMG20251213145940.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/large/1794485201806-7305-IMG20251213145940.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/thumb/1794485201806-7305-IMG20251213145940.webp",
+              "dominantColor": "#1a1c19",
+              "stripCropX": 50,
+              "stripCropY": 48,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 41.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "天津 · 第 5 帧",
+              "createdAt": "2026-11-12T12:06:41.820Z"
+            },
+            {
+              "id": "1794485206852-2440-IMG20251213150018",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/original/1794485206852-2440-IMG20251213150018.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/large/1794485206852-2440-IMG20251213150018.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/thumb/1794485206852-2440-IMG20251213150018.webp",
+              "dominantColor": "#040a0e",
+              "stripCropX": 50,
+              "stripCropY": 48,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 41.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "天津 · 第 6 帧",
+              "createdAt": "2026-11-12T12:06:46.864Z"
+            },
+            {
+              "id": "1794485216378-2126-IMG20251213150311",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/original/1794485216378-2126-IMG20251213150311.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/large/1794485216378-2126-IMG20251213150311.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/thumb/1794485216378-2126-IMG20251213150311.webp",
+              "dominantColor": "#a8b08a",
+              "stripCropX": 50,
+              "stripCropY": 48,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 41.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "天津 · 第 7 帧",
+              "createdAt": "2026-11-12T12:06:56.396Z"
+            },
+            {
+              "id": "1794485220478-757-IMG20251213150343",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/original/1794485220478-757-IMG20251213150343.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/large/1794485220478-757-IMG20251213150343.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/thumb/1794485220478-757-IMG20251213150343.webp",
+              "dominantColor": "#687379",
+              "stripCropX": 50,
+              "stripCropY": 48,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 41.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "天津 · 第 8 帧",
+              "createdAt": "2026-11-12T12:07:00.490Z"
+            },
+            {
+              "id": "1794485224863-4156-IMG20251213154720",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/original/1794485224863-4156-IMG20251213154720.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/large/1794485224863-4156-IMG20251213154720.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/thumb/1794485224863-4156-IMG20251213154720.webp",
+              "dominantColor": "#dab89d",
+              "stripCropX": 50,
+              "stripCropY": 48,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 41.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "天津 · 第 9 帧",
+              "createdAt": "2026-11-12T12:07:04.890Z"
+            },
+            {
+              "id": "1794485229803-4967-IMG20251213154859",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/original/1794485229803-4967-IMG20251213154859.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/large/1794485229803-4967-IMG20251213154859.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/thumb/1794485229803-4967-IMG20251213154859.webp",
+              "dominantColor": "#633f3a",
+              "stripCropX": 50,
+              "stripCropY": 48,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 41.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "天津 · 第 10 帧",
+              "createdAt": "2026-11-12T12:07:09.828Z"
+            },
+            {
+              "id": "1794485233701-4821-IMG20251213155237",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/original/1794485233701-4821-IMG20251213155237.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/large/1794485233701-4821-IMG20251213155237.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/thumb/1794485233701-4821-IMG20251213155237.webp",
+              "dominantColor": "#a79382",
+              "stripCropX": 50,
+              "stripCropY": 48,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 41.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "天津 · 第 11 帧",
+              "createdAt": "2026-11-12T12:07:13.736Z"
+            },
+            {
+              "id": "1794485237916-1772-IMG20251213155542",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/original/1794485237916-1772-IMG20251213155542.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/large/1794485237916-1772-IMG20251213155542.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/thumb/1794485237916-1772-IMG20251213155542.webp",
+              "dominantColor": "#414647",
+              "stripCropX": 50,
+              "stripCropY": 48,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 41.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "天津 · 第 12 帧",
+              "createdAt": "2026-11-12T12:07:17.939Z"
+            },
+            {
+              "id": "1794485243134-8647-IMG20251214202222",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/original/1794485243134-8647-IMG20251214202222.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/large/1794485243134-8647-IMG20251214202222.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/thumb/1794485243134-8647-IMG20251214202222.webp",
+              "dominantColor": "#0050d7",
+              "stripCropX": 50,
+              "stripCropY": 48,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 41.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "天津 · 第 13 帧",
+              "createdAt": "2026-11-12T12:07:23.147Z"
+            },
+            {
+              "id": "1794485247510-8845-IMG20251214202541",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/original/1794485247510-8845-IMG20251214202541.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/large/1794485247510-8845-IMG20251214202541.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddjge2/thumb/1794485247510-8845-IMG20251214202541.webp",
+              "dominantColor": "#64501a",
+              "stripCropX": 50,
+              "stripCropY": 48,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 41.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "天津 · 第 14 帧",
+              "createdAt": "2026-11-12T12:07:27.521Z"
+            }
+          ],
+          "coverPhotoId": "1794485146526-5130-IMG20251213110718"
+        },
+        {
+          "id": "chapter-mwddr098",
+          "index": "02",
+          "weekday": "望江楼",
+          "title": "望江楼",
+          "date": "2026.1.4",
+          "location": "一半朱红古墙，一半万顷竹影",
+          "diary": "锦江晚风拂过千年楼阁\n把江南的温婉和蜀地的雅致揉到了极致",
+          "tags": [],
+          "accent": "#cf3a49",
+          "photos": [
+            {
+              "id": "1794485429780-7869-IMG20260104150601",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddr098/original/1794485429780-7869-IMG20260104150601.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddr098/large/1794485429780-7869-IMG20260104150601.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddr098/thumb/1794485429780-7869-IMG20260104150601.webp",
+              "dominantColor": "#1b191a",
+              "stripCropX": 50,
+              "stripCropY": 67,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 60.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "望江楼 · 第 6 帧",
+              "createdAt": "2026-11-12T12:10:29.799Z"
+            },
+            {
+              "id": "1794485377379-8562-IMG20260104151429",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddr098/original/1794485377379-8562-IMG20260104151429.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddr098/large/1794485377379-8562-IMG20260104151429.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddr098/thumb/1794485377379-8562-IMG20260104151429.webp",
+              "dominantColor": "#4a4922",
+              "stripCropX": 50,
+              "stripCropY": 48,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 41.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "望江楼 · 第 1 帧",
+              "createdAt": "2026-11-12T12:09:37.399Z"
+            },
+            {
+              "id": "1794485396050-651-IMG20260104151549",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddr098/original/1794485396050-651-IMG20260104151549.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddr098/large/1794485396050-651-IMG20260104151549.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddr098/thumb/1794485396050-651-IMG20260104151549.webp",
+              "dominantColor": "#435314",
+              "stripCropX": 50,
+              "stripCropY": 68,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 61.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "望江楼 · 第 2 帧",
+              "createdAt": "2026-11-12T12:09:56.070Z"
+            },
+            {
+              "id": "1794485416809-6226-IMG20260104151652",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddr098/original/1794485416809-6226-IMG20260104151652.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddr098/large/1794485416809-6226-IMG20260104151652.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddr098/thumb/1794485416809-6226-IMG20260104151652.webp",
+              "dominantColor": "#87888d",
+              "stripCropX": 50,
+              "stripCropY": 71,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 64.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "望江楼 · 第 3 帧",
+              "createdAt": "2026-11-12T12:10:16.839Z"
+            },
+            {
+              "id": "1794485420842-8998-IMG20260104145825",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddr098/original/1794485420842-8998-IMG20260104145825.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddr098/large/1794485420842-8998-IMG20260104145825.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddr098/thumb/1794485420842-8998-IMG20260104145825.webp",
+              "dominantColor": "#fc544d",
+              "stripCropX": 50,
+              "stripCropY": 71,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 64.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "望江楼 · 第 4 帧",
+              "createdAt": "2026-11-12T12:10:20.858Z"
+            },
+            {
+              "id": "1794485425368-116-IMG20260104145840",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddr098/original/1794485425368-116-IMG20260104145840.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddr098/large/1794485425368-116-IMG20260104145840.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddr098/thumb/1794485425368-116-IMG20260104145840.webp",
+              "dominantColor": "#3d745c",
+              "stripCropX": 50,
+              "stripCropY": 71,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 64.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "望江楼 · 第 5 帧",
+              "createdAt": "2026-11-12T12:10:25.392Z"
+            },
+            {
+              "id": "1794485435378-8731-IMG20260104150715",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddr098/original/1794485435378-8731-IMG20260104150715.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddr098/large/1794485435378-8731-IMG20260104150715.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddr098/thumb/1794485435378-8731-IMG20260104150715.webp",
+              "dominantColor": "#9bc3f8",
+              "stripCropX": 50,
+              "stripCropY": 71,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 64.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "望江楼 · 第 7 帧",
+              "createdAt": "2026-11-12T12:10:35.393Z"
+            },
+            {
+              "id": "1794485444326-4621-IMG_20260104_183012",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddr098/original/1794485444326-4621-IMG_20260104_183012.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddr098/large/1794485444326-4621-IMG_20260104_183012.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddr098/thumb/1794485444326-4621-IMG_20260104_183012.webp",
+              "dominantColor": "#1b4d14",
+              "stripCropX": 50,
+              "stripCropY": 71,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 64.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "望江楼 · 第 8 帧",
+              "createdAt": "2026-11-12T12:10:44.342Z"
+            }
+          ],
+          "coverPhotoId": "1794485429780-7869-IMG20260104150601"
+        },
+        {
+          "id": "chapter-mwddz548",
+          "index": "03",
+          "weekday": "熊猫基地",
+          "title": "熊猫基地",
+          "date": "2026.3.15",
+          "location": "诗里画里，熊猫故里",
+          "diary": "大熊猫作为中国独有的国宝和文化符号，集自然生态与文化内涵于一身，是中国和平友谊理念的象征。",
+          "tags": [],
+          "accent": "#dcdbac",
+          "photos": [
+            {
+              "id": "1794485673077-4942-IMG20260315161458",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddz548/original/1794485673077-4942-IMG20260315161458.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddz548/large/1794485673077-4942-IMG20260315161458.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddz548/thumb/1794485673077-4942-IMG20260315161458.webp",
+              "dominantColor": "#ffeee6",
+              "stripCropX": 50,
+              "stripCropY": 55,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 48.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "熊猫基地 · 第 2 帧",
+              "createdAt": "2026-11-12T12:14:33.114Z"
+            },
+            {
+              "id": "1794485660091-9880-IMG20260315155301",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddz548/original/1794485660091-9880-IMG20260315155301.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddz548/large/1794485660091-9880-IMG20260315155301.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddz548/thumb/1794485660091-9880-IMG20260315155301.webp",
+              "dominantColor": "#d4bdae",
+              "stripCropX": 50,
+              "stripCropY": 38,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 31.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "熊猫基地 · 第 1 帧",
+              "createdAt": "2026-11-12T12:14:20.109Z"
+            },
+            {
+              "id": "1794485697121-8340-IMG20260315161321",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddz548/original/1794485697121-8340-IMG20260315161321.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddz548/large/1794485697121-8340-IMG20260315161321.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddz548/thumb/1794485697121-8340-IMG20260315161321.webp",
+              "dominantColor": "#748364",
+              "stripCropX": 50,
+              "stripCropY": 55,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 48.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "熊猫基地 · 第 3 帧",
+              "createdAt": "2026-11-12T12:14:57.164Z"
+            },
+            {
+              "id": "1794485703780-4579-IMG20260315161502",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddz548/original/1794485703780-4579-IMG20260315161502.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddz548/large/1794485703780-4579-IMG20260315161502.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddz548/thumb/1794485703780-4579-IMG20260315161502.webp",
+              "dominantColor": "#6d5545",
+              "stripCropX": 50,
+              "stripCropY": 55,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 48.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "熊猫基地 · 第 4 帧",
+              "createdAt": "2026-11-12T12:15:03.810Z"
+            },
+            {
+              "id": "1794485707886-9195-IMG20260315164420",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddz548/original/1794485707886-9195-IMG20260315164420.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddz548/large/1794485707886-9195-IMG20260315164420.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddz548/thumb/1794485707886-9195-IMG20260315164420.webp",
+              "dominantColor": "#91705e",
+              "stripCropX": 50,
+              "stripCropY": 55,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 48.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "熊猫基地 · 第 5 帧",
+              "createdAt": "2026-11-12T12:15:07.934Z"
+            },
+            {
+              "id": "1794485712380-5053-IMG20260315170413",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddz548/original/1794485712380-5053-IMG20260315170413.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddz548/large/1794485712380-5053-IMG20260315170413.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddz548/thumb/1794485712380-5053-IMG20260315170413.webp",
+              "dominantColor": "#cdbcb4",
+              "stripCropX": 50,
+              "stripCropY": 55,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 48.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "熊猫基地 · 第 6 帧",
+              "createdAt": "2026-11-12T12:15:12.414Z"
+            },
+            {
+              "id": "1794485720737-7994-IMG20260315175246",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwddz548/original/1794485720737-7994-IMG20260315175246.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwddz548/large/1794485720737-7994-IMG20260315175246.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwddz548/thumb/1794485720737-7994-IMG20260315175246.webp",
+              "dominantColor": "#c18d38",
+              "stripCropX": 50,
+              "stripCropY": 55,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 48.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "熊猫基地 · 第 8 帧",
+              "createdAt": "2026-11-12T12:15:20.788Z"
+            }
+          ],
+          "coverPhotoId": "1794485673077-4942-IMG20260315161458"
+        },
+        {
+          "id": "chapter-mwde0amu",
+          "index": "04",
+          "weekday": "东澳岛",
+          "title": "东澳岛",
+          "date": "2026.5.30",
+          "location": "像一颗遗落人间的蓝宝石",
+          "diary": "珠海市香洲区东南部的小岛",
+          "tags": [],
+          "accent": "#0008ff",
+          "photos": [
+            {
+              "id": "1794486217661-9908-dji_export_photo_20260530150601144",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/original/1794486217661-9908-dji_export_photo_20260530150601144.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/large/1794486217661-9908-dji_export_photo_20260530150601144.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/thumb/1794486217661-9908-dji_export_photo_20260530150601144.webp",
+              "dominantColor": "#85abdc",
+              "stripCropX": 50,
+              "stripCropY": 55,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 48.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "东澳岛 · 第 1 帧",
+              "createdAt": "2026-11-12T12:23:37.708Z"
+            },
+            {
+              "id": "1794486218944-6057-dji_export_photo_20260530153016566",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/original/1794486218944-6057-dji_export_photo_20260530153016566.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/large/1794486218944-6057-dji_export_photo_20260530153016566.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/thumb/1794486218944-6057-dji_export_photo_20260530153016566.webp",
+              "dominantColor": "#bde5ff",
+              "stripCropX": 50,
+              "stripCropY": 55,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 48.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "东澳岛 · 第 2 帧",
+              "createdAt": "2026-11-12T12:23:38.996Z"
+            },
+            {
+              "id": "1794486220296-7974-dji_export_photo_20260530153210803",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/original/1794486220296-7974-dji_export_photo_20260530153210803.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/large/1794486220296-7974-dji_export_photo_20260530153210803.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/thumb/1794486220296-7974-dji_export_photo_20260530153210803.webp",
+              "dominantColor": "#0a2224",
+              "stripCropX": 50,
+              "stripCropY": 55,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 48.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "东澳岛 · 第 3 帧",
+              "createdAt": "2026-11-12T12:23:40.343Z"
+            },
+            {
+              "id": "1794486221660-3887-dji_export_photo_20260530175125467",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/original/1794486221660-3887-dji_export_photo_20260530175125467.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/large/1794486221660-3887-dji_export_photo_20260530175125467.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/thumb/1794486221660-3887-dji_export_photo_20260530175125467.webp",
+              "dominantColor": "#596ea0",
+              "stripCropX": 50,
+              "stripCropY": 55,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 48.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "东澳岛 · 第 4 帧",
+              "createdAt": "2026-11-12T12:23:41.704Z"
+            },
+            {
+              "id": "1794486222827-7073-dji_export_photo_20260531080259245",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/original/1794486222827-7073-dji_export_photo_20260531080259245.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/large/1794486222827-7073-dji_export_photo_20260531080259245.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/thumb/1794486222827-7073-dji_export_photo_20260531080259245.webp",
+              "dominantColor": "#7ac1fa",
+              "stripCropX": 50,
+              "stripCropY": 55,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 48.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "东澳岛 · 第 5 帧",
+              "createdAt": "2026-11-12T12:23:42.870Z"
+            },
+            {
+              "id": "1794486224065-3944-dji_export_photo_20260531145838298",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/original/1794486224065-3944-dji_export_photo_20260531145838298.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/large/1794486224065-3944-dji_export_photo_20260531145838298.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/thumb/1794486224065-3944-dji_export_photo_20260531145838298.webp",
+              "dominantColor": "#9ac7f1",
+              "stripCropX": 50,
+              "stripCropY": 55,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 48.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "东澳岛 · 第 6 帧",
+              "createdAt": "2026-11-12T12:23:44.120Z"
+            },
+            {
+              "id": "1794486225190-7237-dji_export_photo_20260531150610724",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/original/1794486225190-7237-dji_export_photo_20260531150610724.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/large/1794486225190-7237-dji_export_photo_20260531150610724.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/thumb/1794486225190-7237-dji_export_photo_20260531150610724.webp",
+              "dominantColor": "#285b88",
+              "stripCropX": 50,
+              "stripCropY": 55,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 48.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "东澳岛 · 第 7 帧",
+              "createdAt": "2026-11-12T12:23:45.229Z"
+            },
+            {
+              "id": "1794486227080-7874-IMG20260530141310",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/original/1794486227080-7874-IMG20260530141310.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/large/1794486227080-7874-IMG20260530141310.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/thumb/1794486227080-7874-IMG20260530141310.webp",
+              "dominantColor": "#5a867d",
+              "stripCropX": 50,
+              "stripCropY": 63,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 56.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "东澳岛 · 第 8 帧",
+              "createdAt": "2026-11-12T12:23:47.121Z"
+            },
+            {
+              "id": "1794486228359-7286-IMG20260530144527",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/original/1794486228359-7286-IMG20260530144527.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/large/1794486228359-7286-IMG20260530144527.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/thumb/1794486228359-7286-IMG20260530144527.webp",
+              "dominantColor": "#acaa7e",
+              "stripCropX": 50,
+              "stripCropY": 55,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 48.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "东澳岛 · 第 9 帧",
+              "createdAt": "2026-11-12T12:23:48.394Z"
+            },
+            {
+              "id": "1794486229411-7587-IMG20260530151458",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/original/1794486229411-7587-IMG20260530151458.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/large/1794486229411-7587-IMG20260530151458.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/thumb/1794486229411-7587-IMG20260530151458.webp",
+              "dominantColor": "#1c151d",
+              "stripCropX": 50,
+              "stripCropY": 55,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 48.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "东澳岛 · 第 10 帧",
+              "createdAt": "2026-11-12T12:23:49.435Z"
+            },
+            {
+              "id": "1794486230847-7073-IMG20260530152130",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/original/1794486230847-7073-IMG20260530152130.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/large/1794486230847-7073-IMG20260530152130.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/thumb/1794486230847-7073-IMG20260530152130.webp",
+              "dominantColor": "#b2d2fe",
+              "stripCropX": 50,
+              "stripCropY": 55,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 48.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "东澳岛 · 第 11 帧",
+              "createdAt": "2026-11-12T12:23:50.885Z"
+            },
+            {
+              "id": "1794486231942-1999-IMG20260530165732",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/original/1794486231942-1999-IMG20260530165732.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/large/1794486231942-1999-IMG20260530165732.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0amu/thumb/1794486231942-1999-IMG20260530165732.webp",
+              "dominantColor": "#a29c97",
+              "stripCropX": 50,
+              "stripCropY": 55,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 48.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "东澳岛 · 第 12 帧",
+              "createdAt": "2026-11-12T12:23:51.969Z"
+            }
+          ],
+          "coverPhotoId": "1794486227080-7874-IMG20260530141310"
+        },
+        {
+          "id": "chapter-mwde0nwy",
+          "index": "05",
+          "weekday": "阳朔",
+          "title": "阳朔",
+          "date": "2026.8.6",
+          "location": "山水阳朔，诗意栖居",
+          "diary": "阳朔山水可以用四个词形容：“山青、水秀、峰奇、洞巧”",
+          "tags": [],
+          "accent": "#3acfa2",
+          "photos": [
+            {
+              "id": "1794486333637-183-dji_export_photo_20260806150319056",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/original/1794486333637-183-dji_export_photo_20260806150319056.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/large/1794486333637-183-dji_export_photo_20260806150319056.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/thumb/1794486333637-183-dji_export_photo_20260806150319056.webp",
+              "dominantColor": "#6a6f8a",
+              "stripCropX": 50,
+              "stripCropY": 64,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 57.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "阳朔 · 第 1 帧",
+              "createdAt": "2026-11-12T12:25:33.693Z"
+            },
+            {
+              "id": "1794486334869-7887-dji_export_photo_20260806175043252",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/original/1794486334869-7887-dji_export_photo_20260806175043252.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/large/1794486334869-7887-dji_export_photo_20260806175043252.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/thumb/1794486334869-7887-dji_export_photo_20260806175043252.webp",
+              "dominantColor": "#6990b1",
+              "stripCropX": 50,
+              "stripCropY": 64,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 57.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "阳朔 · 第 2 帧",
+              "createdAt": "2026-11-12T12:25:34.915Z"
+            },
+            {
+              "id": "1794486336006-3935-dji_export_photo_20260806175059178",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/original/1794486336006-3935-dji_export_photo_20260806175059178.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/large/1794486336006-3935-dji_export_photo_20260806175059178.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/thumb/1794486336006-3935-dji_export_photo_20260806175059178.webp",
+              "dominantColor": "#89d2ff",
+              "stripCropX": 50,
+              "stripCropY": 64,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 57.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "阳朔 · 第 3 帧",
+              "createdAt": "2026-11-12T12:25:36.050Z"
+            },
+            {
+              "id": "1794486337193-6972-dji_export_photo_20260806232914762",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/original/1794486337193-6972-dji_export_photo_20260806232914762.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/large/1794486337193-6972-dji_export_photo_20260806232914762.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/thumb/1794486337193-6972-dji_export_photo_20260806232914762.webp",
+              "dominantColor": "#7a95c1",
+              "stripCropX": 50,
+              "stripCropY": 64,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 57.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "阳朔 · 第 4 帧",
+              "createdAt": "2026-11-12T12:25:37.234Z"
+            },
+            {
+              "id": "1794486338352-4029-dji_export_photo_20260806233231571",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/original/1794486338352-4029-dji_export_photo_20260806233231571.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/large/1794486338352-4029-dji_export_photo_20260806233231571.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/thumb/1794486338352-4029-dji_export_photo_20260806233231571.webp",
+              "dominantColor": "#2385c6",
+              "stripCropX": 50,
+              "stripCropY": 64,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 57.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "阳朔 · 第 5 帧",
+              "createdAt": "2026-11-12T12:25:38.396Z"
+            },
+            {
+              "id": "1794486338897-9346-dji_export_photo_20260806233301311",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/original/1794486338897-9346-dji_export_photo_20260806233301311.png",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/large/1794486338897-9346-dji_export_photo_20260806233301311.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/thumb/1794486338897-9346-dji_export_photo_20260806233301311.webp",
+              "dominantColor": "#8bc9f8",
+              "stripCropX": 50,
+              "stripCropY": 64,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 57.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "阳朔 · 第 6 帧",
+              "createdAt": "2026-11-12T12:25:38.910Z"
+            },
+            {
+              "id": "1794486339984-5682-dji_export_photo_20260806233357137",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/original/1794486339984-5682-dji_export_photo_20260806233357137.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/large/1794486339984-5682-dji_export_photo_20260806233357137.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/thumb/1794486339984-5682-dji_export_photo_20260806233357137.webp",
+              "dominantColor": "#b6e2ff",
+              "stripCropX": 50,
+              "stripCropY": 64,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 57.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "阳朔 · 第 7 帧",
+              "createdAt": "2026-11-12T12:25:40.029Z"
+            },
+            {
+              "id": "1794486340981-1997-dji_export_photo_20260806234304893",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/original/1794486340981-1997-dji_export_photo_20260806234304893.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/large/1794486340981-1997-dji_export_photo_20260806234304893.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/thumb/1794486340981-1997-dji_export_photo_20260806234304893.webp",
+              "dominantColor": "#adacba",
+              "stripCropX": 50,
+              "stripCropY": 64,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 57.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "阳朔 · 第 8 帧",
+              "createdAt": "2026-11-12T12:25:41.020Z"
+            },
+            {
+              "id": "1794486342387-1992-dji_export_photo_20260807104734620",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/original/1794486342387-1992-dji_export_photo_20260807104734620.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/large/1794486342387-1992-dji_export_photo_20260807104734620.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/thumb/1794486342387-1992-dji_export_photo_20260807104734620.webp",
+              "dominantColor": "#6f859b",
+              "stripCropX": 50,
+              "stripCropY": 64,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 57.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "阳朔 · 第 9 帧",
+              "createdAt": "2026-11-12T12:25:42.498Z"
+            },
+            {
+              "id": "1794486343613-9730-dji_export_photo_20260807104805210",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/original/1794486343613-9730-dji_export_photo_20260807104805210.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/large/1794486343613-9730-dji_export_photo_20260807104805210.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/thumb/1794486343613-9730-dji_export_photo_20260807104805210.webp",
+              "dominantColor": "#2d8887",
+              "stripCropX": 50,
+              "stripCropY": 64,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 57.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "阳朔 · 第 10 帧",
+              "createdAt": "2026-11-12T12:25:43.767Z"
+            },
+            {
+              "id": "1794486345304-8111-dji_export_photo_20260807105119849",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/original/1794486345304-8111-dji_export_photo_20260807105119849.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/large/1794486345304-8111-dji_export_photo_20260807105119849.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/thumb/1794486345304-8111-dji_export_photo_20260807105119849.webp",
+              "dominantColor": "#63d5be",
+              "stripCropX": 50,
+              "stripCropY": 64,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 57.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "阳朔 · 第 11 帧",
+              "createdAt": "2026-11-12T12:25:45.341Z"
+            },
+            {
+              "id": "1794486346484-4340-dji_export_photo_20260807161228007",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/original/1794486346484-4340-dji_export_photo_20260807161228007.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/large/1794486346484-4340-dji_export_photo_20260807161228007.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/thumb/1794486346484-4340-dji_export_photo_20260807161228007.webp",
+              "dominantColor": "#c7d2e5",
+              "stripCropX": 50,
+              "stripCropY": 40,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 33.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "阳朔 · 第 12 帧",
+              "createdAt": "2026-11-12T12:25:46.525Z"
+            },
+            {
+              "id": "1794486347499-7903-dji_export_photo_20260807161706019",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/original/1794486347499-7903-dji_export_photo_20260807161706019.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/large/1794486347499-7903-dji_export_photo_20260807161706019.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/thumb/1794486347499-7903-dji_export_photo_20260807161706019.webp",
+              "dominantColor": "#9ed8fc",
+              "stripCropX": 50,
+              "stripCropY": 64,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 57.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "阳朔 · 第 13 帧",
+              "createdAt": "2026-11-12T12:25:47.530Z"
+            },
+            {
+              "id": "1794486349183-4365-dji_export_photo_20260807161853374",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/original/1794486349183-4365-dji_export_photo_20260807161853374.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/large/1794486349183-4365-dji_export_photo_20260807161853374.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/thumb/1794486349183-4365-dji_export_photo_20260807161853374.webp",
+              "dominantColor": "#0f212b",
+              "stripCropX": 50,
+              "stripCropY": 64,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 57.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "阳朔 · 第 14 帧",
+              "createdAt": "2026-11-12T12:25:49.265Z"
+            },
+            {
+              "id": "1794486350300-1254-IMG20260806191202",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/original/1794486350300-1254-IMG20260806191202.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/large/1794486350300-1254-IMG20260806191202.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/thumb/1794486350300-1254-IMG20260806191202.webp",
+              "dominantColor": "#b7ad96",
+              "stripCropX": 50,
+              "stripCropY": 64,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 57.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "阳朔 · 第 15 帧",
+              "createdAt": "2026-11-12T12:25:50.344Z"
+            },
+            {
+              "id": "1794486351648-842-IMG20260806211056",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/original/1794486351648-842-IMG20260806211056.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/large/1794486351648-842-IMG20260806211056.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/thumb/1794486351648-842-IMG20260806211056.webp",
+              "dominantColor": "#a25300",
+              "stripCropX": 50,
+              "stripCropY": 64,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 57.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "阳朔 · 第 16 帧",
+              "createdAt": "2026-11-12T12:25:51.681Z"
+            },
+            {
+              "id": "1794486353242-1927-IMG20260807072558",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/original/1794486353242-1927-IMG20260807072558.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/large/1794486353242-1927-IMG20260807072558.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/thumb/1794486353242-1927-IMG20260807072558.webp",
+              "dominantColor": "#858b8c",
+              "stripCropX": 50,
+              "stripCropY": 64,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 57.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "阳朔 · 第 17 帧",
+              "createdAt": "2026-11-12T12:25:53.276Z"
+            },
+            {
+              "id": "1794486354272-9377-IMG20260807091730",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/original/1794486354272-9377-IMG20260807091730.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/large/1794486354272-9377-IMG20260807091730.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/thumb/1794486354272-9377-IMG20260807091730.webp",
+              "dominantColor": "#536c7b",
+              "stripCropX": 50,
+              "stripCropY": 46,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 39.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "阳朔 · 第 18 帧",
+              "createdAt": "2026-11-12T12:25:54.293Z"
+            },
+            {
+              "id": "1794486355513-8111-IMG20260807100231",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/original/1794486355513-8111-IMG20260807100231.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/large/1794486355513-8111-IMG20260807100231.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/thumb/1794486355513-8111-IMG20260807100231.webp",
+              "dominantColor": "#38463c",
               "stripCropX": 50,
               "stripCropY": 37,
               "crops": {
@@ -206,317 +1931,273 @@
                   "height": 100
                 }
               },
-              "alt": "敦煌 · 第 6 帧",
-              "createdAt": "2026-11-12T08:12:14.300Z"
+              "alt": "阳朔 · 第 19 帧",
+              "createdAt": "2026-11-12T12:25:55.564Z"
+            },
+            {
+              "id": "1794486357097-9185-IMG20260807140504",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/original/1794486357097-9185-IMG20260807140504.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/large/1794486357097-9185-IMG20260807140504.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde0nwy/thumb/1794486357097-9185-IMG20260807140504.webp",
+              "dominantColor": "#94b2d3",
+              "stripCropX": 50,
+              "stripCropY": 42,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 35.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "阳朔 · 第 20 帧",
+              "createdAt": "2026-11-12T12:25:57.137Z"
             }
-          ]
-        },
-        {
-          "id": "yulin",
-          "index": "02",
-          "weekday": "榆林",
-          "title": "榆林",
-          "date": "08.20",
-          "diary": "戈壁上的风一整天没停。窟里的壁画比记忆里更安静，出来时天已经偏西。",
-          "tags": [
-            "榆林窟",
-            "戈壁",
-            "傍晚"
           ],
-          "accent": "#1d4d4d",
-          "location": "甘肃 · 榆林窟",
-          "coverPhotoId": "1779714566460-0-chatgpt-image-2026-5-25-21-08-37",
-          "photos": [
-            {
-              "id": "1779714566460-0-chatgpt-image-2026-5-25-21-08-37",
-              "originalSrc": "/uploads/weeks/bali-2026/ijen/original/1779714566460-0-chatgpt-image-2026-5-25-21-08-37.png",
-              "largeSrc": "/uploads/weeks/bali-2026/ijen/large/1779714566460-0-chatgpt-image-2026-5-25-21-08-37.webp",
-              "thumbSrc": "/uploads/weeks/bali-2026/ijen/thumb/1779714566460-0-chatgpt-image-2026-5-25-21-08-37.webp",
-              "dominantColor": "#585653",
-              "alt": "榆林 · 第 1 帧",
-              "createdAt": "2026-05-25T13:09:26.694Z",
-              "stripCropX": 50,
-              "stripCropY": 54,
-              "crops": {
-                "chapterStrip": {
-                  "x": 0,
-                  "y": 47.263,
-                  "width": 100,
-                  "height": 12.5
-                },
-                "detailMain": {
-                  "x": 0,
-                  "y": 21.875,
-                  "width": 100,
-                  "height": 56.25
-                },
-                "thumbnail": {
-                  "x": 0,
-                  "y": 14.634,
-                  "width": 100,
-                  "height": 70.732
-                }
-              }
-            },
-            {
-              "id": "1779702359551-0-2026-05-25-174443-265",
-              "originalSrc": "/uploads/weeks/bali-2026/ijen/original/1779702359551-0-2026-05-25-174443-265.jpg",
-              "largeSrc": "/uploads/weeks/bali-2026/ijen/large/1779702359551-0-2026-05-25-174443-265.webp",
-              "thumbSrc": "/uploads/weeks/bali-2026/ijen/thumb/1779702359551-0-2026-05-25-174443-265.webp",
-              "dominantColor": "#a19991",
-              "alt": "榆林 · 第 2 帧",
-              "createdAt": "2026-05-25T09:45:59.672Z",
-              "stripCropX": 50,
-              "stripCropY": 63,
-              "crops": {
-                "chapterStrip": {
-                  "x": 0,
-                  "y": 56.75,
-                  "width": 100,
-                  "height": 12.5
-                },
-                "detailMain": {
-                  "x": 0,
-                  "y": 21.875,
-                  "width": 100,
-                  "height": 56.25
-                },
-                "thumbnail": {
-                  "x": 0,
-                  "y": 14.634,
-                  "width": 100,
-                  "height": 70.732
-                }
-              }
-            },
-            {
-              "id": "1779702415525-0-2026-05-25-174649-296",
-              "originalSrc": "/uploads/weeks/bali-2026/ijen/original/1779702415525-0-2026-05-25-174649-296.jpg",
-              "largeSrc": "/uploads/weeks/bali-2026/ijen/large/1779702415525-0-2026-05-25-174649-296.webp",
-              "thumbSrc": "/uploads/weeks/bali-2026/ijen/thumb/1779702415525-0-2026-05-25-174649-296.webp",
-              "dominantColor": "#b5afa9",
-              "alt": "榆林 · 第 3 帧",
-              "createdAt": "2026-05-25T09:46:55.660Z",
-              "stripCropX": 50,
-              "stripCropY": 57,
-              "crops": {
-                "chapterStrip": {
-                  "x": 0,
-                  "y": 50.75,
-                  "width": 100,
-                  "height": 12.5
-                },
-                "detailMain": {
-                  "x": 0,
-                  "y": 21.875,
-                  "width": 100,
-                  "height": 56.25
-                },
-                "thumbnail": {
-                  "x": 0,
-                  "y": 14.634,
-                  "width": 100,
-                  "height": 70.732
-                }
-              }
-            },
-            {
-              "id": "1779702359672-1-2026-05-25-174433-792",
-              "originalSrc": "/uploads/weeks/bali-2026/ijen/original/1779702359672-1-2026-05-25-174433-792.jpg",
-              "largeSrc": "/uploads/weeks/bali-2026/ijen/large/1779702359672-1-2026-05-25-174433-792.webp",
-              "thumbSrc": "/uploads/weeks/bali-2026/ijen/thumb/1779702359672-1-2026-05-25-174433-792.webp",
-              "dominantColor": "#898472",
-              "alt": "榆林 · 第 4 帧",
-              "createdAt": "2026-05-25T09:45:59.783Z",
-              "stripCropX": 50,
-              "stripCropY": 50,
-              "crops": {
-                "chapterStrip": {
-                  "x": 0,
-                  "y": 43.75,
-                  "width": 100,
-                  "height": 12.5
-                },
-                "detailMain": {
-                  "x": 0,
-                  "y": 29.563,
-                  "width": 100,
-                  "height": 56.25
-                },
-                "thumbnail": {
-                  "x": 0,
-                  "y": 14.634,
-                  "width": 100,
-                  "height": 70.732
-                }
-              }
-            },
-            {
-              "id": "1779702359783-2-2026-05-25-174352-077",
-              "originalSrc": "/uploads/weeks/bali-2026/ijen/original/1779702359783-2-2026-05-25-174352-077.jpg",
-              "largeSrc": "/uploads/weeks/bali-2026/ijen/large/1779702359783-2-2026-05-25-174352-077.webp",
-              "thumbSrc": "/uploads/weeks/bali-2026/ijen/thumb/1779702359783-2-2026-05-25-174352-077.webp",
-              "dominantColor": "#e1be93",
-              "alt": "榆林 · 第 5 帧",
-              "createdAt": "2026-05-25T09:45:59.969Z",
-              "stripCropX": 50,
-              "stripCropY": 50,
-              "crops": {
-                "chapterStrip": {
-                  "x": 0,
-                  "y": 43.75,
-                  "width": 100,
-                  "height": 12.5
-                },
-                "detailMain": {
-                  "x": 0,
-                  "y": 34.47,
-                  "width": 100,
-                  "height": 56.25
-                },
-                "thumbnail": {
-                  "x": 0,
-                  "y": 14.634,
-                  "width": 100,
-                  "height": 70.732
-                }
-              }
-            }
-          ]
-        },
-        {
-          "id": "zhangye",
-          "index": "03",
-          "weekday": "张掖",
-          "title": "张掖",
-          "date": "08.23",
-          "diary": "山被雨洗过，颜色一层一层铺开。站在观景台上，谁都没说话。",
-          "tags": [
-            "七彩丹霞",
-            "祁连山",
-            "雨后"
-          ],
-          "accent": "#9d6b82",
-          "location": "甘肃 · 张掖",
-          "coverPhotoId": "1779714862431-0-chatgpt-image-2026-5-25-21-13-40",
-          "photos": [
-            {
-              "id": "1779714862431-0-chatgpt-image-2026-5-25-21-13-40",
-              "originalSrc": "/uploads/weeks/bali-2026/new-chapter-06/original/1779714862431-0-chatgpt-image-2026-5-25-21-13-40.png",
-              "largeSrc": "/uploads/weeks/bali-2026/new-chapter-06/large/1779714862431-0-chatgpt-image-2026-5-25-21-13-40.webp",
-              "thumbSrc": "/uploads/weeks/bali-2026/new-chapter-06/thumb/1779714862431-0-chatgpt-image-2026-5-25-21-13-40.webp",
-              "dominantColor": "#4c4c4e",
-              "alt": "张掖 · 第 1 帧",
-              "createdAt": "2026-05-25T13:14:22.668Z",
-              "stripCropX": 50,
-              "stripCropY": 64,
-              "caption": "111111",
-              "crops": {
-                "chapterStrip": {
-                  "x": 0,
-                  "y": 57.75,
-                  "width": 100,
-                  "height": 12.5
-                },
-                "detailMain": {
-                  "x": 0,
-                  "y": 21.875,
-                  "width": 100,
-                  "height": 56.25
-                },
-                "thumbnail": {
-                  "x": 0,
-                  "y": 14.634,
-                  "width": 100,
-                  "height": 70.732
-                }
-              }
-            }
-          ]
-        },
-        {
-          "id": "chapter-mwddjge2",
-          "index": "04",
-          "weekday": "天津",
-          "title": "天津",
-          "date": "",
-          "location": "一座兼具烟火气与异域风情的城市",
-          "diary": "天子渡口，六百年城",
-          "tags": [],
-          "accent": "#3a3fcf",
-          "photos": []
-        },
-        {
-          "id": "chapter-mwddr098",
-          "index": "05",
-          "weekday": "望江楼",
-          "title": "望江楼",
-          "date": "",
-          "location": "一半朱红古墙，一半万顷竹影",
-          "diary": "锦江晚风拂过千年楼阁\n把江南的温婉和蜀地的雅致揉到了极致",
-          "tags": [],
-          "accent": "#cf3a49",
-          "photos": []
-        },
-        {
-          "id": "chapter-mwddz548",
-          "index": "06",
-          "weekday": "熊猫基地",
-          "title": "熊猫基地",
-          "date": "",
-          "location": "",
-          "diary": "",
-          "tags": [],
-          "accent": "#cfca3a",
-          "photos": []
-        },
-        {
-          "id": "chapter-mwde0amu",
-          "index": "07",
-          "weekday": "东澳岛",
-          "title": "东澳岛",
-          "date": "",
-          "location": "",
-          "diary": "",
-          "tags": [],
-          "accent": "#0008ff",
-          "photos": []
-        },
-        {
-          "id": "chapter-mwde0nwy",
-          "index": "08",
-          "weekday": "阳朔",
-          "title": "阳朔",
-          "date": "",
-          "location": "",
-          "diary": "",
-          "tags": [],
-          "accent": "#3acfa2",
-          "photos": []
-        },
-        {
-          "id": "chapter-mwde19fq",
-          "index": "09",
-          "weekday": "广州塔",
-          "title": "广州塔",
-          "date": "",
-          "location": "",
-          "diary": "",
-          "tags": [],
-          "accent": "#3abecf",
-          "photos": []
+          "coverPhotoId": "1794486346484-4340-dji_export_photo_20260807161228007"
         },
         {
           "id": "chapter-mwde1gm4",
-          "index": "10",
+          "index": "06",
           "weekday": "四海城",
           "title": "四海城",
-          "date": "",
-          "location": "",
-          "diary": "",
+          "date": "2026.10.24",
+          "location": "一个特别的万圣夜",
+          "diary": "CBD里的宝藏街区",
           "tags": [],
-          "accent": "#cfa73a",
-          "photos": []
+          "accent": "#a3ff66",
+          "photos": [
+            {
+              "id": "1794486398696-2850-IMG20261024203616",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde1gm4/original/1794486398696-2850-IMG20261024203616.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde1gm4/large/1794486398696-2850-IMG20261024203616.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde1gm4/thumb/1794486398696-2850-IMG20261024203616.webp",
+              "dominantColor": "#fab41d",
+              "stripCropX": 50,
+              "stripCropY": 58,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 51.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "四海城 · 第 1 帧",
+              "createdAt": "2026-11-12T12:26:38.725Z"
+            },
+            {
+              "id": "1794486400373-4124-IMG20261024203749",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde1gm4/original/1794486400373-4124-IMG20261024203749.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde1gm4/large/1794486400373-4124-IMG20261024203749.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde1gm4/thumb/1794486400373-4124-IMG20261024203749.webp",
+              "dominantColor": "#bb7900",
+              "stripCropX": 50,
+              "stripCropY": 42,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 35.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "四海城 · 第 2 帧",
+              "createdAt": "2026-11-12T12:26:40.415Z"
+            },
+            {
+              "id": "1794486401621-6263-IMG20261024204631",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde1gm4/original/1794486401621-6263-IMG20261024204631.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde1gm4/large/1794486401621-6263-IMG20261024204631.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde1gm4/thumb/1794486401621-6263-IMG20261024204631.webp",
+              "dominantColor": "#e4a041",
+              "stripCropX": 50,
+              "stripCropY": 55,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 48.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "四海城 · 第 3 帧",
+              "createdAt": "2026-11-12T12:26:41.666Z"
+            },
+            {
+              "id": "1794486402786-730-IMG20261024204701",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde1gm4/original/1794486402786-730-IMG20261024204701.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde1gm4/large/1794486402786-730-IMG20261024204701.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde1gm4/thumb/1794486402786-730-IMG20261024204701.webp",
+              "dominantColor": "#7d2e00",
+              "stripCropX": 50,
+              "stripCropY": 42,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 35.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "四海城 · 第 4 帧",
+              "createdAt": "2026-11-12T12:26:42.820Z"
+            },
+            {
+              "id": "1794486404203-2676-IMG20261024204857",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde1gm4/original/1794486404203-2676-IMG20261024204857.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde1gm4/large/1794486404203-2676-IMG20261024204857.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde1gm4/thumb/1794486404203-2676-IMG20261024204857.webp",
+              "dominantColor": "#dd9600",
+              "stripCropX": 50,
+              "stripCropY": 42,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 35.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "四海城 · 第 5 帧",
+              "createdAt": "2026-11-12T12:26:44.232Z"
+            },
+            {
+              "id": "1794486405462-5204-IMG20261024205359",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde1gm4/original/1794486405462-5204-IMG20261024205359.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde1gm4/large/1794486405462-5204-IMG20261024205359.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde1gm4/thumb/1794486405462-5204-IMG20261024205359.webp",
+              "dominantColor": "#180b02",
+              "stripCropX": 50,
+              "stripCropY": 42,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 35.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "四海城 · 第 6 帧",
+              "createdAt": "2026-11-12T12:26:45.504Z"
+            },
+            {
+              "id": "1794486406784-8322-IMG20261024205557",
+              "originalSrc": "/uploads/weeks/xixing-2025/chapter-mwde1gm4/original/1794486406784-8322-IMG20261024205557.jpg",
+              "largeSrc": "/uploads/weeks/xixing-2025/chapter-mwde1gm4/large/1794486406784-8322-IMG20261024205557.webp",
+              "thumbSrc": "/uploads/weeks/xixing-2025/chapter-mwde1gm4/thumb/1794486406784-8322-IMG20261024205557.webp",
+              "dominantColor": "#680003",
+              "stripCropX": 50,
+              "stripCropY": 42,
+              "crops": {
+                "chapterStrip": {
+                  "x": 0,
+                  "y": 35.75,
+                  "width": 100,
+                  "height": 12.5
+                },
+                "detailMain": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                },
+                "thumbnail": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "alt": "四海城 · 第 7 帧",
+              "createdAt": "2026-11-12T12:26:46.863Z"
+            }
+          ],
+          "coverPhotoId": "1794486398696-2850-IMG20261024203616"
         }
       ]
     }
