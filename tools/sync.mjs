@@ -91,6 +91,20 @@ copyFileSync(
   join(siteRoot, "assets", "static-shim.js"),
 );
 
+// 保留用户手工注入到 index.html 的额外脚本（例如 file:// 打开提示），同步时不弄丢。
+const existingHtmlPath = join(siteRoot, "index.html");
+let injectedBlocks = "";
+if (existsSync(existingHtmlPath)) {
+  const previous = readFileSync(existingHtmlPath, "utf8");
+  const start = previous.indexOf("<!-- 双击本文件");
+  if (start >= 0) {
+    const end = previous.indexOf("</script>", start);
+    if (end >= 0) {
+      injectedBlocks = previous.slice(start, end + "</script>".length);
+    }
+  }
+}
+
 let html = readFileSync(join(source, "dist", "index.html"), "utf8");
 html = html.replace(
   '<script type="module"',
@@ -98,6 +112,9 @@ html = html.replace(
 );
 if (base) {
   html = html.replaceAll('"/assets/', `"${base}/assets/`);
+}
+if (injectedBlocks) {
+  html = html.replace("</body>", injectedBlocks + "\n  </body>");
 }
 writeFileSync(join(siteRoot, "index.html"), html);
 // GitHub Pages 没有 history fallback，用 404.html 承接 /trip/... /admin 等深链接。

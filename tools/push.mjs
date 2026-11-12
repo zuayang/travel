@@ -183,6 +183,8 @@ async function main() {
   if (!config.username || !config.repo) {
     throw new Error("用户名和仓库名不能为空。");
   }
+  const isUserSite =
+    config.repo.toLowerCase() === `${config.username.toLowerCase()}.github.io`;
 
   if (!config.confirmedPublic && !autoYes) {
     console.log("");
@@ -213,7 +215,10 @@ async function main() {
   // 1. 同步便携版里最新的前端与内容
   if (!skipSync) {
     console.log("\n[1/4] 同步最新内容…");
-    const sync = run(process.execPath, [syncPath], { allowFail: true });
+    // 普通项目仓库部署在 /<repo>/ 子路径，必须给所有绝对路径加前缀，否则线上白屏。
+    const syncArgs = isUserSite ? [syncPath] : [syncPath, `--base=${config.repo}`];
+    if (!isUserSite) console.log("     子路径部署，自动加前缀：/" + config.repo);
+    const sync = run(process.execPath, syncArgs, { allowFail: true });
     if (!sync.ok) throw new Error("内容同步失败，已停止推送。");
   } else {
     console.log("\n[1/4] 跳过内容同步（--no-sync）");
@@ -269,7 +274,6 @@ async function main() {
     return;
   }
 
-  const isUserSite = config.repo.toLowerCase() === `${config.username.toLowerCase()}.github.io`;
   const siteUrl = isUserSite
     ? `https://${config.username}.github.io/`
     : `https://${config.username}.github.io/${config.repo}/`;
@@ -279,7 +283,7 @@ async function main() {
   console.log("   站点：" + siteUrl);
   console.log("   首次部署请到 Settings → Pages 选 main / (root)，约 1-2 分钟生效。");
   if (!isUserSite) {
-    console.log("   注意：普通仓库名需要运行 `node tools/sync.mjs --base=" + config.repo + "` 加路径前缀。");
+    console.log("   已自动为 /" + config.repo + " 子路径补齐资源前缀与路由 basename。");
   }
 }
 

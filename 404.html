@@ -4,11 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PHOTO ROLLS</title>
-    <script src="/assets/static-shim.js"></script>
-    <script type="module" crossorigin src="/assets/index-CAdTbOyu.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-D64RmnmZ.css">
+    <script src="/travel/assets/static-shim.js"></script>
+    <script type="module" crossorigin src="/travel/assets/index-CAdTbOyu.js"></script>
+    <link rel="stylesheet" crossorigin href="/travel/assets/index-D64RmnmZ.css">
   </head>
   <body>
     <div id="root"></div>
+  <!-- 双击本文件（file://）时浏览器会拦截 ES module，页面会空白；给出明确指引。通过 HTTP 访问时不显示。 -->
+    <script>
+      (function () {
+        if (location.protocol !== "file:") return;
+        var box = document.createElement("div");
+        box.style.cssText = "position:fixed;inset:0;z-index:99999;overflow:auto;box-sizing:border-box;padding:32px;background:#12161c;color:#f2eee5;font:15px/1.9 system-ui,-apple-system,'Segoe UI',sans-serif";
+        var card = document.createElement("div");
+        card.style.cssText = "max-width:680px;margin:6vh auto;padding:28px 32px;border:1px solid #3a414c;border-radius:14px;background:#1b212a";
+        card.innerHTML =
+          '<h1 style="margin:0 0 14px;font-size:22px;color:#fff">请通过本地服务器打开这个页面</h1>' +
+          '<p style="margin:0 0 12px">当前地址是 <code>file://</code>。浏览器会拦截 ES module 脚本，页面资源又使用以 / 开头的绝对路径（会指向磁盘根目录），所以前端没有运行，页面一片空白。</p>' +
+          '<p style="margin:0 0 10px">正确做法，任选其一：</p>' +
+          '<ol style="margin:0 0 14px;padding-left:22px">' +
+          '<li>双击 <b>preview.bat</b>（在 github-pages 目录），自动启动本地预览并打开浏览器；</li>' +
+          '<li>或双击原便携版的 <b>启动照片记录本.bat</b>；</li>' +
+          '<li>或运行 <b>push-to-github.bat</b> 发布后用 https 网址访问。</li>' +
+          '</ol>' +
+          '<p style="margin:0;color:#9aa5b1">这不是页面损坏，也不是照片丢失，只是打开方式不对。</p>';
+        box.appendChild(card);
+        document.body.appendChild(box);
+      })();
+    </script>
   </body>
 </html>
