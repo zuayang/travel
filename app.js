@@ -13,7 +13,7 @@
   var COPY = {
     journalLabel: "旅行手记",          // 顶部栏左侧
     rollLabel:    "第一卷",            // 顶部栏中间 / 首页 kicker
-    region:       "",          // 首页副标题与竖排标注里的地区
+    region:       "收藏",          // 首页副标题与竖排标注里的地区
     journalSub:   "从海边到戈壁的一卷胶片",
     coverLabel:   "封面",
     indexTitle:   "章节目录",

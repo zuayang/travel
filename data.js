@@ -2,7 +2,7 @@ window.JOURNAL_DATA = {
   "weeks": [
     {
       "id": "xixing-2025",
-      "title": "荔枝冰",
+      "title": "人生",
       "range": "",
       "summary": "永远相信美好的事物即将发生！",
       "createdAt": "2026-05-24T12:00:00.000Z",
