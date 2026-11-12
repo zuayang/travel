@@ -3,6 +3,8 @@
    想换风格，绝大多数情况只改下面 :root 里的变量就够了。
    分区：1 变量 / 2 基础 / 3 顶部栏 / 4 首页左栏 / 5 章节目录
         6 首页右栏胶片横幅 / 7 首页锁屏 / 8 详情页 / 9 灯箱 / 10 响应式
+        11 纯白主题（文件末尾，只覆盖 :root[data-theme="light"]）
+   改配色：墨黑改 :root 变量；纯白改第 11 节的覆盖块。
    ========================================================================== */
 
 /* 1. 变量 ------------------------------------------------------------------ */
@@ -39,7 +41,7 @@
 /* 2. 基础 ------------------------------------------------------------------ */
 * { box-sizing: border-box; }
 
-html { -webkit-text-size-adjust: 100%; }
+html { -webkit-text-size-adjust: 100%; color-scheme: dark; }
 
 body {
   margin: 0;
@@ -112,11 +114,48 @@ button { font: inherit; }
   color: var(--paper-2);
 }
 .rail-center { color: var(--paper); }
+.rail-tools { display: flex; justify-content: flex-end; align-items: center; gap: 14px; min-width: 0; }
 .rail-swatches { display: flex; justify-content: flex-end; align-items: center; gap: 6px; }
 .rail-swatches i { display: block; width: 15px; height: 8px; background: var(--hairline); }
 .rail-swatches i:nth-child(1) { background: var(--red); }
 .rail-swatches i:nth-child(2) { background: var(--amber); }
 .rail-swatches i:nth-child(3) { background: #4b7f5b; }
+
+/* 顶栏的一键配色切换：两段式，点一下即换；当前风格由 <html data-theme> 决定 */
+.theme-toggle {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  padding: 3px;
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  background: rgba(245, 238, 216, .04);
+  white-space: nowrap;
+}
+.theme-toggle button {
+  padding: 5px 11px;
+  border: 0;
+  border-radius: 999px;
+  background: none;
+  color: var(--paper-3);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  line-height: 1.2;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background .25s ease, color .25s ease;
+}
+.theme-toggle button:hover { color: var(--paper); }
+.theme-toggle button:focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; }
+html:not([data-theme="light"]) .theme-toggle [data-theme-value="dark"],
+html[data-theme="light"] .theme-toggle [data-theme-value="light"] {
+  background: var(--paper);
+  color: var(--bg);
+}
+html:not([data-theme="light"]) .theme-toggle [data-theme-value="dark"]:hover,
+html[data-theme="light"] .theme-toggle [data-theme-value="light"]:hover { color: var(--bg); }
 
 /* 4. 首页左栏 -------------------------------------------------------------- */
 .home-layout {
@@ -748,4 +787,114 @@ button { font: inherit; }
   .strip-top { display: none; }
   .frames { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; }
   .chapter-panel { padding: 24px 20px; }
+}
+
+/* 11. 纯白主题 -------------------------------------------------------------
+   <html> 不带 data-theme / 为 dark 时 = 墨黑，完全保持原设计；
+   加上 data-theme="light" = 纯白（中性白，不带米黄）。切换由 app.js 顶栏按钮完成。
+
+   思路：先覆盖 :root 里的配色变量（所有 var(--…) 自动跟着变），
+   再修补少量写死的深色值——主要是照片层、渐变、阴影。
+   胶片横幅 / 详情页大图 / 灯箱仍然是深色底，所以压在照片上的文字保持浅色，
+   只有「纸面」部分换成中性白，这样两种风格都不会出现看不清的字。
+   琥珀 / 朱红作为品牌强调色保留；如需完全无彩色，把 --amber 也改成中性灰。
+   ------------------------------------------------------------------------ */
+html[data-theme="light"] { color-scheme: light; }
+
+:root[data-theme="light"] {
+  --bg:        #ffffff;                 /* 纯白纸面 */
+  --bg-deep:   #f2f4f6;
+  --panel:     #ffffff;
+  --paper:     #17191d;                 /* 主文字：中性墨色 */
+  --paper-2:   rgba(23, 25, 29, .74);   /* 浅底上的小字比深色版略加深，保证可读 */
+  --paper-3:   rgba(23, 25, 29, .56);
+  --hairline:  rgba(23, 25, 29, .14);
+  --amber:     #a9761b;                 /* 浅底上换深琥珀，保证对比度 */
+  --red:       #b3402f;
+  /* --tone 不动：章节强调色只出现在照片上，保持原本的饱和色 */
+}
+
+/* 页面底色与纸面渐变：只用中性灰做层次，不再带黄 */
+:root[data-theme="light"] body {
+  background:
+    radial-gradient(circle at 72% 12%, rgba(23, 25, 29, .025), transparent 30%),
+    linear-gradient(140deg, #ffffff, #fafbfc 54%, #eff1f4);
+}
+:root[data-theme="light"] ::selection { color: #ffffff; }
+:root[data-theme="light"] .site-shell::after {
+  background: linear-gradient(0deg, rgba(23, 25, 29, .055), transparent);
+}
+:root[data-theme="light"] .theme-toggle { background: rgba(23, 25, 29, .04); }
+:root[data-theme="light"] .rail-swatches i:nth-child(3) { background: #6d9068; }
+:root[data-theme="light"] .home-layout {
+  background: linear-gradient(90deg, #ffffff, #fbfcfd 44%, #f2f4f6 62%, #ffffff);
+}
+:root[data-theme="light"] .home-copy::before {
+  background:
+    radial-gradient(ellipse 76% 44% at 4% 2%, rgba(23, 25, 29, .03), transparent 72%),
+    linear-gradient(180deg, rgba(255,255,255,.7), transparent 46%, rgba(23,25,29,.035));
+}
+:root[data-theme="light"] .home-title .solid { text-shadow: 0 10px 28px rgba(23, 25, 29, .12); }
+:root[data-theme="light"] .home-title .outline { -webkit-text-stroke: .8px rgba(23, 25, 29, .5); }
+:root[data-theme="light"] .home-summary { color: rgba(23, 25, 29, .78); }
+:root[data-theme="light"] .ci-head { border-bottom-color: rgba(23, 25, 29, .2); }
+:root[data-theme="light"] .index-rows a:hover,
+:root[data-theme="light"] .index-rows a:focus-visible { background: rgba(23, 25, 29, .045); }
+:root[data-theme="light"] .index-rows .arrow { opacity: .42; }
+:root[data-theme="light"] .co-seal { border-color: rgba(179, 64, 47, .7); color: #b3402f; }
+
+/* 胶片横幅仍是中性深灰照片底，上面的文字保持纯白 */
+:root[data-theme="light"] .film-strip { background: #1e2024; }
+:root[data-theme="light"] .film-strip:hover,
+:root[data-theme="light"] .film-strip:focus-visible { border-color: rgba(23, 25, 29, .4); }
+:root[data-theme="light"] .strip-photo { filter: saturate(.8) brightness(.86) contrast(1.02); }
+:root[data-theme="light"] .film-strip:hover .strip-photo { filter: saturate(.95) brightness(.96) contrast(1.02); }
+:root[data-theme="light"] .strip-photo::after {
+  background:
+    linear-gradient(90deg, rgba(14,16,19,.58), transparent 38%, rgba(14,16,19,.22) 68%, rgba(14,16,19,.66)),
+    linear-gradient(0deg, rgba(14,16,19,.40), transparent 55%);
+}
+:root[data-theme="light"] .perf {
+  background: repeating-linear-gradient(90deg, rgba(255,255,255,.22) 0 6px, transparent 6px 26px);
+}
+:root[data-theme="light"] .strip-top,
+:root[data-theme="light"] .strip-img-count,
+:root[data-theme="light"] .strip-copy small { color: rgba(255, 255, 255, .8); }
+:root[data-theme="light"] .film-strip.empty .strip-photo {
+  background: linear-gradient(120deg, color-mix(in srgb, var(--tone), #1e2024 72%), #1e2024);
+}
+
+/* 首页锁屏相关：页脚底色与右栏滚动条 */
+:root[data-theme="light"] body.is-home .site-foot { background: #f6f7f9; }
+:root[data-theme="light"] body.is-home .film-strips {
+  scrollbar-color: rgba(23, 25, 29, .3) transparent;
+}
+:root[data-theme="light"] body.is-home .film-strips::-webkit-scrollbar-thumb {
+  background: rgba(23, 25, 29, .3);
+}
+
+/* 详情页：大图区保持深色，照片墙和正文换成纯白纸面 */
+:root[data-theme="light"] .detail-hero { background: #1e2024; }
+:root[data-theme="light"] .hero-photo { filter: saturate(.8) brightness(.7) contrast(1.03); }
+:root[data-theme="light"] .chapter-panel h1 { color: #ffffff; }
+:root[data-theme="light"] .chapter-panel .kicker { color: color-mix(in srgb, var(--tone), #ffffff 30%); }
+:root[data-theme="light"] .chapter-panel .meta { color: rgba(255, 255, 255, .8); }
+:root[data-theme="light"] .tags span { border-color: rgba(255,255,255,.24); color: rgba(255,255,255,.8); }
+:root[data-theme="light"] .back { color: #ffffff; }
+:root[data-theme="light"] .back:hover { color: #f0bc43; }
+:root[data-theme="light"] .frame { background: #f2f4f6; }
+:root[data-theme="light"] .frame img { filter: saturate(.95) brightness(1); }
+:root[data-theme="light"] .frame:hover img { filter: saturate(1) brightness(1.03); }
+
+/* 灯箱依旧压暗背景，方便看照片 */
+:root[data-theme="light"] .lightbox { background: rgba(12, 14, 17, .96); }
+:root[data-theme="light"] .lightbox button { color: #ffffff; }
+:root[data-theme="light"] .lb-caption { color: rgba(255, 255, 255, .78); }
+
+/* 切换时给文字与细线一点过渡；渐变背景会直接换，属正常表现。
+   用 :where 保持 0 优先级，不覆盖各元素自己的 transform / hover 过渡。 */
+:where(body, .top-rail, .home-layout, .home-copy, .site-foot, .ci-head,
+       .index-rows a, .colophon, .co-seal, .frames-head, .frame,
+       .frame figcaption, .film-strip, .tags span, .chapter-panel h1) {
+  transition: background-color .3s ease, border-color .3s ease, color .3s ease;
 }

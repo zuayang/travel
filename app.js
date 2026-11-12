@@ -3,8 +3,9 @@
    零依赖、零构建。相对路径 + hash 路由，放在任何 GitHub Pages 路径下都能跑。
 
    改文案：只改下面 COPY 对象。
-   改样式：改 styles.css 顶部的 :root 变量。
+   改样式：墨黑改 styles.css 顶部 :root 变量；纯白改文件末尾第 11 节覆盖块。
    改结构：改 renderIndex() / renderDetail() 两个模板函数。
+   换配色：顶栏「墨黑 / 纯白」一键切换，选择记在 localStorage，也可按 T 键。
    ========================================================================== */
 (function () {
   "use strict";
@@ -22,7 +23,10 @@
     back:         "← 返回目录",
     emptyNote:    "这一章还没有照片。",
     footLeft:     "一路向西 · 一帧一格",
-    footRight:    "全卷完"
+    footRight:    "全卷完",
+    themeLabel:   "界面配色",
+    themeDark:    "墨黑",
+    themeLight:   "纯白"
   };
 
   var app = document.getElementById("app");
@@ -30,6 +34,32 @@
   var journal = null;
   var photos = [];
   var photoIndex = 0;
+
+  /* ---------- 配色切换 ------------------------------------------------- */
+
+  var THEME_KEY = "journal-theme";
+  var THEME_META = { dark: "#060706", light: "#ffffff" };
+
+  // 默认墨黑；只有显式标成 light 才算纯白，这样老访客看到的仍是原来的样子。
+  function currentTheme() {
+    return document.documentElement.getAttribute("data-theme") === "light" ? "light" : "dark";
+  }
+
+  function syncThemeButtons() {
+    var now = currentTheme();
+    Array.prototype.forEach.call(app.querySelectorAll(".theme-toggle button"), function (btn) {
+      btn.setAttribute("aria-pressed", String(btn.getAttribute("data-theme-value") === now));
+    });
+  }
+
+  function setTheme(theme) {
+    var next = theme === "light" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", next);
+    try { localStorage.setItem(THEME_KEY, next); } catch (e) {}
+    var meta = document.getElementById("themeColor");
+    if (meta) meta.setAttribute("content", THEME_META[next]);
+    syncThemeButtons();
+  }
 
   /* ---------- 小工具 --------------------------------------------------- */
 
@@ -129,9 +159,17 @@
       '<header class="top-rail">' +
         '<span>' + esc(journal.title) + " · " + esc(COPY.journalLabel) + "</span>" +
         '<span class="rail-center">' + esc(center) + "</span>" +
-        '<span class="rail-swatches" aria-hidden="true">' +
-          "<i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>" +
-        "</span>" +
+        '<div class="rail-tools">' +
+          '<div class="theme-toggle" role="group" aria-label="' + esc(COPY.themeLabel) + '">' +
+            '<button type="button" data-theme-value="dark" aria-pressed="' +
+              (currentTheme() === "dark") + '">' + esc(COPY.themeDark) + "</button>" +
+            '<button type="button" data-theme-value="light" aria-pressed="' +
+              (currentTheme() === "light") + '">' + esc(COPY.themeLight) + "</button>" +
+          "</div>" +
+          '<span class="rail-swatches" aria-hidden="true">' +
+            "<i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>" +
+          "</span>" +
+        "</div>" +
       "</header>"
     );
   }
@@ -347,8 +385,25 @@
     document.body.classList.toggle("is-home", !match);
     if (match) renderDetail(decodeURIComponent(match[1]));
     else renderIndex();
+    syncThemeButtons();
     window.scrollTo(0, 0);
   }
+
+  // 顶栏每次重绘后按钮都是新的，用事件代理绑定，不用反复 addEventListener。
+  document.addEventListener("click", function (event) {
+    var btn = event.target && event.target.closest
+      ? event.target.closest(".theme-toggle button")
+      : null;
+    if (btn) setTheme(btn.getAttribute("data-theme-value"));
+  });
+
+  // 快捷键 T：不看鼠标也能一键切换（灯箱打开时不抢按键）。
+  document.addEventListener("keydown", function (event) {
+    if (!lightbox.hidden || event.ctrlKey || event.altKey || event.metaKey) return;
+    if (event.key === "t" || event.key === "T") {
+      setTheme(currentTheme() === "light" ? "dark" : "light");
+    }
+  });
 
   load()
     .then(function (raw) {

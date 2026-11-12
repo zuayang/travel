@@ -3,9 +3,25 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="dark">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#060706" id="themeColor">
   <title>旅行</title>
   <meta name="description" content="一路向西，从海边到戈壁，一帧一格。">
+  <!-- 先定配色再加载样式，避免刷新时闪一下另一种底色。
+       默认墨黑；上次选择存在 localStorage（file:// 下不可用时忽略即可）。 -->
+  <script>
+    (function () {
+      // 访客第一次打开时的默认风格：dark = 墨黑，改成 light 则默认纯白。
+      // 访客自己点过切换后，以 localStorage 里的选择为准。
+      var DEFAULT_THEME = "dark";
+      var t = DEFAULT_THEME;
+      try { t = localStorage.getItem("journal-theme") || DEFAULT_THEME; } catch (e) {}
+      if (t !== "light" && t !== "dark") t = DEFAULT_THEME;
+      document.documentElement.setAttribute("data-theme", t);
+      document.getElementById("themeColor")
+        .setAttribute("content", t === "light" ? "#ffffff" : "#060706");
+    })();
+  </script>
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
