@@ -103,22 +103,39 @@ github-pages/
 
 如果确实需要在线编辑，属于另一个量级的改造：把内容存到云数据库/对象存储、把照片上传改走云 API，或用 GitHub Actions + 登录态后台。当前这套便携版代码不能直接复用。
 
-## 如果仓库名不是 `<用户名>.github.io`
+## 如果仓库名不是 `<用户名>.github.io`（例如 `travel`）
 
-普通项目仓库会部署在 `https://<用户名>.github.io/<仓库名>/`，所有根绝对路径都会失效，需要给资源路径和路由都加前缀。用同步脚本生成子路径版：
+普通项目仓库会部署在 `https://<用户名>.github.io/<仓库名>/`，**所有根绝对路径都会失效**。`push-to-github.bat` 已做自动处理：只要 `push.config.json` 里的 `repo` 不是 `<用户名>.github.io`，推送时会自动以 `--base=<仓库名>` 调用同步脚本，无需手动操作。
+
+四处自动替换（缺一不可）：
+
+| 位置 | 根路径版 | 子路径版 |
+| --- | --- | --- |
+| `index.html` / `404.html` | `/assets/...` | `/travel/assets/...` |
+| 打包 JS 的数据请求 | `/content/weeks.json` | `/travel/content/weeks.json` |
+| React Router | 无 basename | `basename:"/travel"` |
+| `content/weeks.json` 照片地址 | `/uploads/...` | `/travel/uploads/...` |
+
+手动生成/校验也可以：`node tools/sync.mjs --base=travel`。在 Git Bash 里**不要**写成 `--base=/travel`（MSYS 会把 `/` 开头的参数当路径转换掉）；在 cmd / `sync-content.bat` 里两种写法都行。
+
+> ⚠️ 只运行 `sync-content.bat`（不带 base）会把站点改回根路径版，推上去就会白屏。用 `push-to-github.bat` 推送则永远正确，它会重新同步并自动加前缀。
+
+### 白屏排查
+
+访问 `https://<用户名>.github.io/<仓库名>/` 一片空白，通常是 JS 没加载：
 
 ```bash
-node tools/sync.mjs --base=<仓库名>
+curl -s https://<用户名>.github.io/<仓库名>/ | grep assets
+curl -s -o /dev/null -w '%{http_code}\n' https://<用户名>.github.io/<仓库名>/assets/index-*.js
+curl -s -o /dev/null -w '%{http_code}\n' https://<用户名>.github.io/assets/index-*.js   # 应为 404
 ```
 
-在 Git Bash 里请**不要**写成 `--base=/仓库名`（MSYS 会把 `/` 开头的参数当路径转换掉）；在 cmd / `sync-content.bat` 里两种写法都可以。
-
-它会：给 `index.html` 的 `/assets/`、JS 里的 `/content/weeks.json`、`weeks.json` 里的 `/uploads/` 加前缀，并给前端路由注入 `basename`。已在当前打包产物上验证过这四处替换。
+如果页面 HTML 里写的是 `/assets/...` 而实际资源在 `/travel/assets/...`，就是前缀没加，重新跑一次 `push-to-github.bat` 即可。改完记得等 1–2 分钟让 Pages 重新构建，并强制刷新（Ctrl+F5）避开 CDN 缓存。
 
 代价与风险：
 - 这是针对当前打包产物的文本补丁，前端重新打包后需重新验证（脚本会提示是否成功注入）。
-- 子路径下 `404.html` 的 fallback 行为依赖 GitHub Pages 对项目站点自定义 404 的处理，深链接刷新请务必自测。
-- 更省事的替代：给项目站点绑定自定义域名（自定义域下站点变回根路径 `/`），或改用 Cloudflare Pages / Netlify（可配 SPA rewrite）。
+- 子路径下 GitHub Pages 用 `404.html` 承接深链接，返回的状态码是 404 但内容是正确的 SPA 页面，浏览器可正常渲染；搜索引擎收录不友好，介意的话绑定自定义域名。
+- 更省事的替代：给项目站点绑定自定义域名（自定义域下站点变回根路径 `/`，所有绝对路径天然正确），或改用 Cloudflare Pages / Netlify（可配 SPA rewrite）。
 
 ## 其它注意
 
